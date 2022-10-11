@@ -33,9 +33,9 @@ class Truck extends Vehicle
     {
         $this->loading = $loading;
     }
-    public function full($storageCapacity, $loading)
+    public function full(): string
     {
-        if ($storageCapacity < $this->storageCapacity - $this->$loading) {
+        if ($this->storageCapacity >= $this->loading) {
             return 'in filling';
 
             return 'full';
