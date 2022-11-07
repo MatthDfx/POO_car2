@@ -27,3 +27,5 @@ echo $truck->full(100, 100);
 var_dump($truck);
 
 $skateboard = new Bicycle($red, 1);
+$tesla = new Car('black', 4, 'fuel');
+$ferrari = new Car('red', 2, 'electric');
