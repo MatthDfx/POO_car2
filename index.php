@@ -25,3 +25,5 @@ $truck = new Truck(100, 'green', 4, 'fuel');
 $truck->loading = 100;
 echo $truck->full(100, 100);
 var_dump($truck);
+
+$skateboard = new Bicycle($red, 1);
